@@ -1,0 +1,35 @@
+.my-name {
+    font-family: Arial;
+    font-weight: bold;
+    background: blue;
+    color: white;
+}
+
+nav ul {
+    background-color: cyan;
+    font-family: arial;
+    font-weight: bold;
+
+}
+
+.section-content {
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    background-color: cyan;
+} 
+
+.section-header {
+    font-family: arial;
+    font-weight: bold;
+    background: blue;
+    color: white;
+
+}
+.footer {
+    background-color: teal;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+}
