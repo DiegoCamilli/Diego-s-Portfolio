@@ -1,35 +1,120 @@
-.my-name {
-    font-family: Arial;
-    font-weight: bold;
-    background: blue;
-    color: white;
-}
-
-nav ul {
-    background-color: cyan;
-    font-family: arial;
-    font-weight: bold;
-
-}
-
-.section-content {
-    font-family: Arial;
-    font-weight: bold;
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2, h5 {
+    margin: 0;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    padding: 20px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .my-name {
+    font-size: 24px;
+  }
+  
+  .header-link {
+    margin-left: 20px;
+  }
+  
+  /* Main styles */
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .sidebar {
+    flex: 0 0 200px;
+    margin-right: 20px;
+  }
+  
+  .section-header {
+    font-size: 24px;
+  }
+  
+  .section-content {
+    flex: 1;
+  }
+  
+  .photo-div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* Work section styles */
+  .app-tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    background-color: #444;
+    padding: 20px;
+  }
+  
+  .app-tile img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .app-header {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .description {
     text-align: center;
-    background-color: cyan;
-} 
-
-.section-header {
-    font-family: arial;
-    font-weight: bold;
-    background: blue;
-    color: white;
-
-}
-.footer {
-    background-color: teal;
-    color: white;
-    font-family: arial;
-    font-weight: bold;
+  }
+  
+  /* Contact section styles */
+  #contact-me ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #contact-me li {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    padding: 20px;
     text-align: center;
-}
+  }
